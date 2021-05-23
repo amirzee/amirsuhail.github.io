@@ -305,7 +305,7 @@ img{
 }
 .skills_img{
 	border-radius: .5rem;
-	/*width: 400px;*/
+	width: 400px;
 }
 .work{
 	text-align: center;
