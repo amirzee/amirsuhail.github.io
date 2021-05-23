@@ -307,6 +307,13 @@ img{
 	border-radius: .5rem;
 	width: 400px;
 }
+.skills_img img{
+	transition: 1s;
+	cursor: pointer;
+}
+.skills_img img:hover{
+	transform: scale(1.1);
+}
 .work{
 	text-align: center;
 }
