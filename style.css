@@ -310,8 +310,13 @@ img{
 .work{
 	text-align: center;
 }
+.work_subtitle{
+	margin-bottom: var(--mb-2);
+	color: black;
+}
 .work_container{
 	row-gap: 2rem;
+	text-align: center;
 }
 .work_img{
 	box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -324,6 +329,23 @@ img{
 }
 .work_img img:hover{
 	transform: scale(1.1);
+}
+.work_icon{
+	font-size: 5rem;
+	color: #daa520;
+}
+.work_input{
+	width: 100%;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi);
+	padding: 1rem;
+	border-radius: .5rem;
+	border: 1.5px solid var(--second-color);
+	outline: none;
+	
+}
+.work_text{
+
 }
 .contact_input{
 	width: 100%;
@@ -428,7 +450,7 @@ img{
 	}
 	.work_container{
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(2, 1fr);
+		/*grid-template-rows: repeat(2, 1fr);*/
 		column-gap: 2rem;
 	}
 	.contact_form{
